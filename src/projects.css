@@ -1,0 +1,36 @@
+.box{
+    border:5px solid black;
+    border-radius: 10px;
+    background-image: url('https://images.pexels.com/photos/6978731/pexels-photo-6978731.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+
+    background-origin: unset;
+    min-width: 80vw;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box-containeer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row{
+    border:1px solid red;
+    border-radius: 5px;
+    min-width: 33%;
+    font-size: 40px;
+    margin: 10px;
+    background-color: rgb(61, 206, 100);
+}
+
+a:link{
+    text-decoration:wavy;
+    color:yellow;
+}
+a:visited{
+    color:red
+}
+a:hover{
+    color:pink;
+}
